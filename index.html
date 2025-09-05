@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ステーブルコインを学ぼう！</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🪙 ステーブルコインを学ぼう！</h1>
+        <p class="subtitle">日本でも始まる新しいデジタル通貨の世界</p>
+    </header>
+
+    <nav>
+        <button class="nav-btn active" data-section="intro">基本を知る</button>
+        <button class="nav-btn" data-section="benefits">メリット</button>
+        <button class="nav-btn" data-section="risks">リスク・注意点</button>
+        <button class="nav-btn" data-section="japan">日本での展開</button>
+        <button class="nav-btn" data-section="quiz">クイズ</button>
+    </nav>
+
+    <main>
+        <section id="intro" class="content-section active">
+            <h2>ステーブルコインって何？</h2>
+            
+            <div class="info-card">
+                <h3>💰 価格が安定したデジタル通貨</h3>
+                <p>ステーブルコインは、1コイン＝100円のように、価格が安定しているデジタル通貨です。</p>
+                <p>ビットコインのように価格が大きく変動しないので、日常的な支払いに使いやすいのが特徴です。</p>
+            </div>
+
+            <div class="info-card">
+                <h3>🔒 安全性の仕組み</h3>
+                <p>発行会社が同じ金額の現金や国債を保有しているため、いつでも確実に現金と交換できます。</p>
+                <p>例：100万円分のステーブルコインを発行したら、発行会社は100万円分の資産を保管します。</p>
+            </div>
+
+            <div class="comparison">
+                <h3>通常の仮想通貨との違い</h3>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>ステーブルコイン</th>
+                        <th>ビットコイン等</th>
+                    </tr>
+                    <tr>
+                        <td>価格変動</td>
+                        <td class="good">✅ 安定</td>
+                        <td class="bad">❌ 激しい</td>
+                    </tr>
+                    <tr>
+                        <td>日常利用</td>
+                        <td class="good">✅ 適している</td>
+                        <td class="bad">❌ 不向き</td>
+                    </tr>
+                    <tr>
+                        <td>価値の裏付け</td>
+                        <td class="good">✅ あり</td>
+                        <td class="neutral">➖ なし</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="benefits" class="content-section">
+            <h2>ステーブルコインのメリット</h2>
+            
+            <div class="benefit-grid">
+                <div class="benefit-card">
+                    <span class="icon">⚡</span>
+                    <h3>24時間365日即時送金</h3>
+                    <p>銀行の営業時間に縛られません。深夜でも休日でも、世界中どこへでも数秒〜数分で送金が完了します。</p>
+                    <div class="detail-info">
+                        <p class="small-text">💡 例：海外出張中の家族への緊急送金も、時差を気にせず即座に対応可能</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="icon">💰</span>
+                    <h3>圧倒的に低い手数料</h3>
+                    <p>国内送金：数円〜数十円程度<br>国際送金：金額の0.1%未満（銀行の場合3-5%）</p>
+                    <div class="detail-info">
+                        <p class="small-text">💡 10万円を海外送金する場合、銀行なら3000-5000円の手数料が100円以下に</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="icon">🌍</span>
+                    <h3>国境のない決済</h3>
+                    <p>複雑な手続きや中継銀行不要。相手のアドレスさえ分かれば、世界中どこへでも直接送金可能。</p>
+                    <div class="detail-info">
+                        <p class="small-text">💡 途上国への支援金送付や、海外フリーランサーへの報酬支払いが簡単に</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="icon">📱</span>
+                    <h3>金融包摂の実現</h3>
+                    <p>銀行口座を持てない人々も、スマートフォンさえあれば金融サービスを利用可能。</p>
+                    <div class="detail-info">
+                        <p class="small-text">💡 世界の17億人の銀行口座を持たない人々に金融アクセスを提供</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="icon">🔍</span>
+                    <h3>完全な透明性</h3>
+                    <p>ブロックチェーン上の全取引記録が公開。資金の流れが追跡可能で、不正や改ざんを防止。</p>
+                    <div class="detail-info">
+                        <p class="small-text">💡 寄付金の使途を透明化、企業の資金管理の信頼性向上に貢献</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="icon">🤖</span>
+                    <h3>スマートコントラクト連携</h3>
+                    <p>条件付き支払い、自動精算、エスクローなど、プログラマブルな金融サービスを実現。</p>
+                    <div class="detail-info">
+                        <p class="small-text">💡 家賃の自動支払い、商品到着後の自動決済など新サービスが可能に</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="icon">💎</span>
+                    <h3>価値の安定性</h3>
+                    <p>法定通貨に裏付けられているため、ビットコインのような激しい価格変動がなく、日常決済に最適。</p>
+                    <div class="detail-info">
+                        <p class="small-text">💡 給与受取や貯蓄にも安心して利用可能</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="icon">⚙️</span>
+                    <h3>既存システムとの親和性</h3>
+                    <p>従来の金融インフラと連携しやすく、企業の導入ハードルが低い。API連携で簡単統合。</p>
+                    <div class="detail-info">
+                        <p class="small-text">💡 ECサイトや会計システムへの組み込みが容易</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="risks" class="content-section">
+            <h2>知っておくべきリスクと注意点</h2>
+            
+            <div class="risk-category">
+                <h3 class="risk-title">🏦 発行体リスク</h3>
+                <div class="risk-grid">
+                    <div class="risk-card">
+                        <h4>倒産リスク</h4>
+                        <p>発行企業が破綻した場合、ステーブルコインの価値が失われる可能性があります。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>信頼できる大手金融機関が発行するものを選択。日本では信託保全が義務化。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="risk-card">
+                        <h4>準備資産の不透明性</h4>
+                        <p>発行体が本当に100%の資産を保有しているか、外部監査がない場合は不明確。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>定期的な監査報告書を公開している発行体を選ぶ。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="risk-category">
+                <h3 class="risk-title">⚖️ 規制リスク</h3>
+                <div class="risk-grid">
+                    <div class="risk-card">
+                        <h4>規制の変更</h4>
+                        <p>各国の規制が急激に変更され、利用が制限される可能性があります。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>規制動向を常にチェック。複数の国で認可を受けた発行体を選択。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="risk-card">
+                        <h4>利用制限</h4>
+                        <p>特定の国や地域、用途での利用が禁止される場合があります。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>利用規約を確認し、合法的な用途のみに使用。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="risk-category">
+                <h3 class="risk-title">💻 技術的リスク</h3>
+                <div class="risk-grid">
+                    <div class="risk-card">
+                        <h4>ハッキング・盗難</h4>
+                        <p>ウォレットがハッキングされたり、秘密鍵が盗まれると資金を失います。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>ハードウェアウォレット使用、二段階認証設定、秘密鍵の安全管理。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="risk-card">
+                        <h4>送金ミス</h4>
+                        <p>間違ったアドレスに送金すると、取り戻すことができません。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>送金前のアドレス確認徹底。少額でテスト送金を実施。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="risk-card">
+                        <h4>システム障害</h4>
+                        <p>ブロックチェーンの混雑や障害により、送金が遅延する場合があります。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>緊急時は複数の送金手段を確保。混雑時を避けて利用。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="risk-category">
+                <h3 class="risk-title">💵 市場リスク</h3>
+                <div class="risk-grid">
+                    <div class="risk-card">
+                        <h4>デペッグリスク</h4>
+                        <p>一時的に法定通貨との価格連動が崩れ、価値が変動する可能性。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>流動性の高い主要ステーブルコインを選択。長期保有は避ける。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="risk-card">
+                        <h4>流動性リスク</h4>
+                        <p>取引量が少ない場合、希望価格での換金が困難になることがあります。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>大手取引所で扱われている主要ステーブルコインを利用。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="risk-category">
+                <h3 class="risk-title">🔒 プライバシーリスク</h3>
+                <div class="risk-grid">
+                    <div class="risk-card">
+                        <h4>取引の透明性</h4>
+                        <p>ブロックチェーン上の全取引が公開されるため、プライバシーが完全ではありません。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>用途別にウォレットを分ける。プライバシー重視の場合は他の決済手段も検討。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="risk-card">
+                        <h4>KYC/AML要件</h4>
+                        <p>大口取引では本人確認が必要となり、匿名性が失われます。</p>
+                        <div class="mitigation">
+                            <span class="mitigation-label">対策</span>
+                            <p>正当な用途での利用。必要な本人確認には適切に対応。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="important-notice">
+                <h3>⚠️ 重要な注意事項</h3>
+                <ul>
+                    <li>ステーブルコインは預金保険の対象外です</li>
+                    <li>投資目的ではなく、決済・送金手段として利用することを推奨</li>
+                    <li>大金を長期間保有することは避け、必要な分だけを保有</li>
+                    <li>複数の発行体のステーブルコインに分散することでリスクを軽減</li>
+                    <li>常に最新の規制情報を確認し、合法的に利用すること</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="japan" class="content-section">
+            <h2>日本での導入について</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023年6月</div>
+                    <div class="timeline-content">
+                        <h3>改正資金決済法施行</h3>
+                        <p>ステーブルコインの法的枠組みが整備され、日本での発行・流通が可能に。</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2025年秋〜</div>
+                    <div class="timeline-content">
+                        <h3>本格的なサービス開始</h3>
+                        <p>大手金融機関や決済事業者がステーブルコインサービスを順次開始。</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">近い将来</div>
+                    <div class="timeline-content">
+                        <h3>日常生活での利用拡大</h3>
+                        <p>コンビニ決済、ECサイト、給与支払いなど様々な場面で利用可能に。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="use-cases">
+                <h3>こんな場面で便利に！</h3>
+                <div class="use-case-grid">
+                    <div class="use-case">
+                        <span class="emoji">🛒</span>
+                        <p>オンラインショッピングの支払い</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="emoji">👨‍👩‍👧</span>
+                        <p>家族への仕送り</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="emoji">🎮</span>
+                        <p>ゲーム内通貨の購入</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="emoji">💼</span>
+                        <p>フリーランスの報酬受取</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="emoji">🎁</span>
+                        <p>デジタルギフトカード</p>
+                    </div>
+                    <div class="use-case">
+                        <span class="emoji">📱</span>
+                        <p>割り勘アプリでの精算</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="japan-info">
+                <h3>🇯🇵 日本独自の特徴</h3>
+                <ul>
+                    <li>厳格な規制により高い安全性を確保</li>
+                    <li>発行体は信託銀行での分別管理が義務</li>
+                    <li>利用者保護の仕組みが充実</li>
+                    <li>既存の決済インフラとの連携を重視</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="quiz" class="content-section">
+            <h2>クイズで理解度チェック！</h2>
+            
+            <div id="quiz-container">
+                <div id="quiz-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <p>問題 <span id="current-question">1</span> / 5</p>
+                </div>
+                
+                <div id="quiz-content">
+                    <div class="question-card">
+                        <h3 id="question-text"></h3>
+                        <div id="answer-options"></div>
+                    </div>
+                    
+                    <div id="feedback" class="feedback hidden"></div>
+                    <button id="next-btn" class="btn-primary hidden">次の問題へ</button>
+                </div>
+                
+                <div id="quiz-result" class="hidden">
+                    <h3>クイズ終了！</h3>
+                    <p class="score">あなたの得点: <span id="final-score"></span>/5</p>
+                    <div id="result-message"></div>
+                    <button id="restart-btn" class="btn-primary">もう一度チャレンジ</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>ステーブルコインで、より便利な未来へ 🚀</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
